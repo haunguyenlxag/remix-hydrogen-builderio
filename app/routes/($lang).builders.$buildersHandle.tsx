@@ -43,7 +43,7 @@ export default function Builders() {
       <PageHeader heading="Test builder">
         <div>
           <h2>Testing builder.io</h2>
-          <BuilderComponent model="page" content={content?.data} />
+          <BuilderComponent model="page" content={content} />
         </div>
       </PageHeader>
     </>
