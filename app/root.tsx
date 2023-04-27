@@ -32,7 +32,7 @@ import invariant from 'tiny-invariant';
 import {Shop, Cart} from '@shopify/hydrogen/storefront-api-types';
 import {useAnalytics} from './hooks/useAnalytics';
 
-export const links: LinksFunction = () => {
+export const links = () => {
   return [
     {rel: 'stylesheet', href: styles},
     {
