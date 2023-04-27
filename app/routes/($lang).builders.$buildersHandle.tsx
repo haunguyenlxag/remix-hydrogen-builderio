@@ -9,7 +9,7 @@ export async function loader() {
   const builderContent = await builder
     .get(BUILDER_MODEL, {
       userAttributes: {
-        urlPath: '/builder/testing',
+        urlPath: '/builders/testing',
       },
     })
     .toPromise();
