@@ -426,6 +426,9 @@ function Footer({menu}: {menu?: EnhancedMenu}) {
         &copy; {new Date().getFullYear()} / Shopify, Inc. Hydrogen is an MIT
         Licensed Open Source project.
       </div>
+      <Link to="/builders/testing">
+        Builder testing
+      </Link>
     </Section>
   );
 }
