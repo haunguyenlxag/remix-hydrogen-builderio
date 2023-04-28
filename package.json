@@ -9,8 +9,7 @@
     "preview": "npm run build && shopify hydrogen preview",
     "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx .",
     "format": "prettier --write --ignore-unknown .",
-    "format:check": "prettier --check --ignore-unknown .",
-    "typecheck": "tsc --noEmit"
+    "format:check": "prettier --check --ignore-unknown ."
   },
   "browserslist": [
     "defaults"
@@ -19,6 +18,7 @@
   "dependencies": {
     "@builder.io/react": "^2.1.0",
     "@builder.io/sdk": "^1.2.0",
+    "@builder.io/sdk-react": "^0.2.3",
     "@builder.io/widgets": "^1.2.24",
     "@headlessui/react": "^1.7.2",
     "@remix-run/react": "1.15.0",
@@ -44,13 +44,9 @@
     "@remix-run/dev": "1.15.0",
     "@remix-run/eslint-config": "1.15.0",
     "@shopify/eslint-plugin": "^42.0.1",
-    "@shopify/oxygen-workers-types": "^3.17.2",
     "@shopify/prettier-config": "^1.1.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
-    "@types/eslint": "^8.4.10",
-    "@types/react": "^18.0.20",
-    "@types/react-dom": "^18.0.6",
     "cross-env": "^7.0.3",
     "eslint": "^8.20.0",
     "eslint-plugin-hydrogen": "0.12.2",
@@ -59,8 +55,7 @@
     "postcss-preset-env": "^8.2.0",
     "prettier": "^2.8.4",
     "rimraf": "^3.0.2",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^4.9.5"
+    "tailwindcss": "^3.3.0"
   },
   "engines": {
     "node": ">=16.13"
